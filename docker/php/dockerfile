@@ -13,6 +13,10 @@ RUN apt-get update && apt-get install -y \
     libzip-dev \
     && docker-php-ext-install zip pdo pdo_mysql
 
+# Node.jsとnpmのインストール
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get install -y nodejs
+
 # PHP 拡張モジュールのインストール
 RUN docker-php-ext-install bcmath zip && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
