@@ -12,6 +12,10 @@
 ![php Badge](https://img.shields.io/badge/-PHP-%237777.svg?style=flat&logo=php)
 ![composer Badge](https://img.shields.io/badge/-Composer-%23885630.svg?style=flat&logo=Composer)
 ![googleauthenticator Badge](https://img.shields.io/badge/-GoogleAuthenticator-%234289.svg?style=flat&logo=GoogleAuthenticator)
+![github Badge](https://img.shields.io/badge/-GitHub-%230000.svg?style=flat&logo=GitHub)
+![git Badge](https://img.shields.io/badge/-Git-%230000.svg?style=flat&logo=Git)
+![phpstorm Badge](https://img.shields.io/badge/-PHPStorm-%230000.svg?style=flat&logo=PHPStorm)
+
 
 # 使用技術
 - Laravel: PHP フレームワーク
@@ -22,20 +26,22 @@
 
 
 # 学んだこと
-## 1.Docker の基本
+## 1.Docker
 #### ・コンテナのビルド、ボリュームマウント、ネットワーク設定の方法を学んだ。
 #### ・Docker Compose を用いたサービス間の依存関係の管理と、環境変数の活用方法。
-## 2.Laravel のセットアップ
+## 2.Laravel
 #### ・Laravel プロジェクトの構成
 #### ・コンテナ内での環境構築
 #### ・権限の調整など実践的な設定を経験。
-## 3.2FAの実装
+#### ・BREEZE利用したログイン画面の実装
+## 3.2FA
 #### ・Google Authenticator の仕組み（TOTP）の理解
 #### ・pragmarx/google2fa-laravel ライブラリを用いた実装方法を学んだ。
 #### ・ミドルウェアやコントローラーを利用した責務の分離
 #### ・セッション管理の方法
-## 4.GitHub へのアップロード
+## 4.GitHub
 #### ・プロジェクトをGitHubにアップロードし、リモートリポジトリとして管理する方法。
+#### ・issueを作成し作業を管理
 
 
 
